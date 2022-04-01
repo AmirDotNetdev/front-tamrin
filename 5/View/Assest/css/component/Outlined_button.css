@@ -1,0 +1,19 @@
+.btnoutlined{
+    --height:40px;
+    background-color: #FFFBFE;
+    color: #6750A4;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-color: #79747E;
+    height: var(--height);
+    border-radius: calc(var(--height)/2);
+    padding-right: 16px;
+    padding-left: 24px;
+    text-align: center;
+    font-family: Roboto;
+
+}
+i{
+    padding-left: 8px;
+}

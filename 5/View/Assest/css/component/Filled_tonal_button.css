@@ -1,0 +1,14 @@
+.btntonal{
+    --height:40px;
+    background-color: #E8DEF8;
+    color: #1E192B;
+    font-family: roboto,medium;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    height: var(--height);
+    border-radius: calc(var(--height)/2);
+    padding: 0 24px;
+    text-align: center;
+
+}
