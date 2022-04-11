@@ -1,0 +1,23 @@
+.disabled{
+    --height:40px;
+    
+    
+    font-family: Roboto, sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    height: var(--height);
+    border-radius: calc(var(--height)/2);
+    text-align: center;
+    padding: 0 24px;
+    opacity: 12%;
+
+
+    
+}
+.disabled:disabled{
+    background-color: rgba(28, 27, 31, 12%);
+    opacity: 38%;
+    color: rgb(28, 27, 31);
+    cursor: not-allowed;
+}

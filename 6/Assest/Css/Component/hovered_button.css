@@ -1,0 +1,19 @@
+.hovered{
+    --height:40px;
+    background-color: #FFFBFE;
+    color: #6750A4;
+    font-family: Roboto, sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    height: var(--height);
+    border-radius: calc(var(--height)/2);
+    text-align: center;
+    padding: 0 24px;
+    
+    
+}
+.hovered:hover{
+    background-color: rgba(103, 80, 164, 0.3);
+    cursor: pointer;
+}
