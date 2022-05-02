@@ -1,0 +1,77 @@
+@media screen and (min-width:481px) and (max-width:1024px) {
+    .card-md{
+        width: 70%;
+        
+        margin: 0px;
+        border: 1px solid #79747E;
+        border-radius: 12px;
+        padding-bottom: 8px;
+        text-align: start;
+        
+        font-family: Roboto;    
+        
+    }
+    .card-body-md{
+        float: right;
+        
+    }
+    
+    
+        .align{
+            padding: 16px;
+        }
+        .card-md p,h5,a{
+            padding: 0 16px;
+            
+        }
+        .card.outlined{
+            background-color: #FFFBFE;
+        }
+        .card.elevated{
+            background-color: #FFFBFE;
+        }
+        .card.filled{
+            background-color: #E7E0EC;
+        }
+        .card-img-top-md{
+            
+            clear: left;
+            
+            float: left;
+        }
+        .btn-md{
+            --height:40px;
+            min-width: inherit;
+            line-height: 40px;
+            font-size: 14px;
+            font-weight: 500;
+            border-color: #79747E;
+            height: var(--height);
+            border-radius: calc(var(--height)/2);
+            padding-right: 16px;
+            padding-left: 24px;
+            text-align: center;
+            font-family: Roboto;
+            display: block;
+            text-decoration: none;
+            
+            
+        }
+        .btn-md.btn-outlined-md{
+            background-color: #FFFFFF;
+            color: #6750A4;
+            border: 1px solid #1E192B;
+        }
+        .btn.btn-tonal{
+            background-color: #E8DEF8;
+            color: #1E192B;
+        }
+        .btn-md.btn-primary-md{
+            background-color: #6750A4;
+            color: #FFFFFF;
+        }
+        
+        
+    }
+
+    

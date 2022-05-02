@@ -1,0 +1,7 @@
+@import url(card.css);
+@import url(button.css);
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+}
