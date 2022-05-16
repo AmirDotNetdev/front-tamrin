@@ -1,0 +1,27 @@
+.calc{
+    display: grid;
+    gap: 10px;
+    height: 700px;
+    width: 1000px;
+    background-color: antiquewhite;
+    overflow-y: auto;
+
+
+}
+
+    
+#text1{
+    width: 920px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+.calc .body button{
+    
+    margin: 20px;
+    height: 100px;
+    width: 200px;
+}
